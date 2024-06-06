@@ -21,6 +21,7 @@ galleryEl.insertAdjacentHTML('beforeend', markup.join(""));
       const lightbox = new SimpleLightbox('.gallery a', {
         captions: true,
         captionDelay: 250,
+        captionPosition:'bottom',
         captionSelector: 'img',
         captionsData: 'alt'
       });
